@@ -1,0 +1,75 @@
+ /* Navbar */
+ .navbar {
+    background-color: #ffffff; /* White background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+}
+
+.navbar-brand {
+    color: #4f10d5; /* Dark font color */
+    font-weight: bold; /* Bold font weight */
+    font-size: 1.5rem; /* Larger font size */
+}
+
+.navbar-toggler {
+    border-color: rgba(0, 0, 0, 0.1); /* Light border color */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"); /* Custom toggle icon */
+}
+
+.navbar-nav .nav-link {
+    color: #0080ff; /* Dark font color for links */
+    font-size: 1.2rem; /* Larger font size */
+    margin-right: 20px; /* Add space between links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #007bff; /* Change font color on hover */
+}
+
+/* Search Bar */
+.form-control {
+    border-color: #ced4da; /* Light border color */
+}
+
+.form-control:focus {
+    border-color: #007bff; /* Focus border color */
+    box-shadow: none; /* Remove default box shadow */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Green text color */
+    border-color: #02411d; /* Green border color */
+}
+
+.btn-outline-success:hover {
+    color: #ffffff; /* White text color on hover */
+    background-color: #28a745; /* Green background color on hover */
+    border-color: #28a745; /* Green border color on hover */
+}
+.navbar {
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.navbar-brand {
+    color: #333; /* Dark text color */
+}
+
+.form-control {
+    width: 300px; /* Adjust the width of the search bar */
+}
+
+.btn-outline-success {
+    color: #28a745; /* Green button color */
+    border-color: #28a745; /* Green button border color */
+}
+h1{
+    text-align: center;
+    background-color: rgb(227, 226, 226);
+}
+
+h2{
+    text-align: center;
+    background-color: rgb(227, 226, 226);
+}

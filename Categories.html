@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Categories</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0d170e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .category {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .category:hover {
+            transform: scale(1.05);
+        }
+        .category h3 {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+        footer {
+            background-color: #0d170e;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Book Categories</h1>
+    </header>
+    <div class="container">
+        <h2>Explore Our Categories</h2>
+        <div class="categories">
+            <div class="category">
+                <h3>Fiction</h3>
+                <p>Explore a wide range of fictional works including novels, short stories, and more.</p>
+            </div>
+            <div class="category">
+                <h3>Non-Fiction</h3>
+                <p>Discover informative and factual books on various subjects and topics.</p>
+            </div>
+            <div class="category">
+                <h3>Mystery</h3>
+                <p>Dive into thrilling mysteries and crime stories that will keep you on the edge of your seat.</p>
+            </div>
+            <div class="category">
+                <h3>Romance</h3>
+                <p>Find heartwarming and passionate romance novels that will sweep you off your feet.</p>
+            </div>
+            <div class="category">
+                <h3>Science Fiction</h3>
+                <p>Explore futuristic and speculative worlds through our science fiction collection.</p>
+            </div>
+            <div class="category">
+                <h3>Fantasy</h3>
+                <p>Embark on magical and fantastical adventures with our fantasy books.</p>
+            </div>
+            <!-- Add more categories as needed -->
+        </div>
+    </div>
+    <br/>
+    <footer>
+        <p>&copy; 2024 Book-Heaven. All rights reserved.</p>
+    </footer>
+</body>
+</html>
